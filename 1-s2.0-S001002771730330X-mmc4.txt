@@ -1,0 +1,43 @@
+This folder contains data for the three experiments presented in:
+Hayakawa, S. & Keysar, B. (2017). "Using a foreign language reduces mental imagery". Cognition. 
+
+#----------Experiment 1 contains the following columns--------------#
+(1) SID: Subject ID
+(2) Language: Assigned language condition (0=Native English, 1=Foreign Spanish)
+(3-9) The next 7 columns contain average vividness scores which range from 1 (least vivid) to 7 (most vivid):
+Visual,	Auditory, Tactile, Motor, Gustatory, Olfactory,	Sensory	
+(10) Total: The vividness score averaged across the 7 modalities
+(11) Age: Age at time of experiment
+(12) Gender: 1=Male, 2=Female
+(13) AOA: Age of foreign language acquisition
+(14-21)The following 8 columns contain self-reported proficiency scores from 1 (least proficient) to 7 (most proficient)
+Speaking ENGLISH, Listening to ENGLISH, Reading ENGLISH, Writing ENGLISH, Speaking SPANISH, Listening to SPANISH, Reading SPANISH, Writing SPANISH
+
+#----------Experiment 2 contains the following columns--------------#
+(1) SID: Subject ID
+(2) Language: Chinese (native) or English (foreign)
+(3) SHP_Pic: Accuracy score for Shape-Picture condition
+(4) SHP_Word: Accuracy score for Shape-Word condition	
+(5) CAT_Pic: Accuracy score for Category-Picture condition	
+(6) CAT_Word: Accuracy score for Category-Word condition	
+(7) Native Language: 0=Other, 1=Mandarin	
+(8) Gender: 1=Male, 2=Female	
+(9) Age: Age at time of experiment
+(10) AOA: Age of foreign language acquisition
+(11) English Months: Months spent in English-speaking country	
+(12-21)The following 8 columns contain self-reported proficiency scores from 1 (least proficient) to 7 (most proficient)
+Speaking ENGLISH, Listening to ENGLISH, Reading ENGLISH, Writing ENGLISH, Speaking MANDARIN, Listening to MANDARIN, Reading CHINESE, Writing CHINESE
+
+#----------Experiment 3 contains the following columns--------------#
+(1) SID: Subject ID
+(2) Language: German (native) or English (foreign)
+(3) Native Language
+(4) Gender: Female or Male
+(5) Age: Age at time of experiment
+(6) FB Decision: Footbridge decision which ranges from 1 (least likely to push) to 7 (most likely to push)
+(7) The man - vivid:  Vividness of the fat man in the scenario which ranges from 1 (least vivid) to 7 (most vivid)
+(8) The five- vivid:  Vividness of the five people to be saved in the scenario which ranges from 1 (least vivid) to 7 (most vivid)
+(9) Overall - vivid:  Vividness of the overall scenario which ranges from 1 (least vivid) to 7 (most vivid)
+(10) AOA: Age of foreign language acquisition
+(11-20) The following 8 columns contain self-reported proficiency scores from 1 (least proficient) to 7 (most proficient)
+Speaking ENGLISH, Listening to ENGLISH, Reading ENGLISH, Writing ENGLISH, Speaking GERMAN, Listening to GERMAN, Reading GERMAN, Writing GERMAN
