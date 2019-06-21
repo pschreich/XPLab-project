@@ -1,0 +1,29 @@
+/* In this file you can overwrite/extend the given babe-styles or declare your own ones */
+
+/* Example of extending a given babe-style */
+
+.babe-view-stimulus-container {
+    height: 40px;
+}
+
+/* Display all titles in red */
+.babe-view-question {
+    font-size: 30px;
+    height: 100px;
+}
+.babe-view-qud {
+  font-size: 18px;
+  height: 80px;
+}
+
+.babe-view-question_left_part {
+  font-size: 18px;
+}
+/* Example of declaring your own style */
+.custom-border {
+   border: 50px solid powderblue;
+}
+
+/*.title-size {
+  question:
+}
