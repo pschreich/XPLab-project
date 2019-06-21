@@ -1,0 +1,89 @@
+---
+title: "Registered Replication Report: Hayakawa & Keysar (2017)"
+shorttitle: "Using a foreign language reduces mental imagery"
+author: "Peter Crowe, Eric Hrybinski, Pauline Schreich"
+date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+output: word_document
+---
+```{r setup, include=FALSE, echo = FALSE, message = FALSE}
+
+knitr::opts_chunk$set(echo=TRUE, 
+
+                      warning=FALSE,
+
+                      message=FALSE, 
+
+                      collapse = TRUE,
+
+                      cache = TRUE,
+
+                      dev.args = list(bg = 'transparent'), 
+
+                      fig.align='center', 
+
+                      fig.height = 3, 
+
+                      fig.widht=4)
+
+library(rmdformats)
+
+library(tidyverse)
+
+library(brms)
+
+library(ggplot2)
+
+library(knitr)
+
+options(mc.cores = parallel::detectCores())
+
+```
+
+```{r, echo = FALSE}
+
+data <- read_csv("1-1.csv")
+
+```
+
+# Abstract
+abstract, theoretical background, research question  
+Why is this interesting?
+
+# Methods
+
+## Design
+1 x 2 between subject design  
+dependant variable = vividness (1 - 7)  
+independent variable = cue (Bett's Questionnaire)
+
+### Participants
+Participants will be German-speaking (possibly non-native) adults with some proficiency in English as a foreing language  
+Participants will be recruited among Cognitive Science Bachelor students of the university of Osnabrück during the summer semester 2019.   Recruitment happens via e-mail invitation providing a link to the online experiment  
+We will collect data from as many participants as we can recruit over a period of two weeks  
+sample size = `r data$submission_id %>% unique %>% length`
+
+## Materials
+Bett's Questionnaire (shortened as we got rid of all of the words deemed to similar in German and English)
+
+## Procedure
+-Instructions: Participants are shown written instructions about the tasks to come.  
+-Proficiency test: Participants of the FL group are tasked to translate 5 -English words into German  
+-Practice run: Subjects tasked to assess 5 examples to get comfortable with the process  
+-Main phase: Subjects are presented with a sensory cue. They are shown the modality of the cue as well as the cues description. They are presented with a dropdown menu in which to choose a written out description of the vividness.  
+
+
+# Analysis
+
+## Exclusion criteria
+failed translation test  
+targeted NL not actually the NL of subject  
+targeted FL actually the dominant language of subject, crossed "do not understand"  
+
+## Preregistered analysis plan
+analysis plan
+```{r}
+data
+```
+
+# Results
+results
